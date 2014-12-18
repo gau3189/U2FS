@@ -1,3 +1,6 @@
+
+
+
 ########################################################
  * Subject      : Homework Assignment #2
  * Name         : Gautham Reddy Kunta
@@ -36,7 +39,7 @@ The syntax for the "ldir=<path>,rdir=<path>" mount option is:
 
 Syntax for mount:
 =================
-# mount -t u2fs -o ldir=/left/dir,rdir=<paht> null <mount_point>
+ mount -t u2fs -o ldir=/left/dir,rdir=<paht> null <mount_point>
 
 
 U2FS FUNCTIONALITY:
