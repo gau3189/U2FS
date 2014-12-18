@@ -114,4 +114,5 @@ Implementation:
 
 References:
 ===========
-Borrowed the code from Unionfs and modified the wrapfs code as needed.
+Unionfs
+wrapfs
