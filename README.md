@@ -1,20 +1,16 @@
+Subject      : Homework Assignment #2
+Name         : Gautham Reddy Kunta
+Date         : APR-13-2014
 
-
-
-########################################################
- * Subject      : Homework Assignment #2
- * Name         : Gautham Reddy Kunta
- * Date         : APR-13-2014
-#######################################################
-
+u2fs :
+======
 u2fs is a stackable unification file system, which can appear to merge the 
 contents of two directories (branches), while keeping their physical content 
 separate.
 
 GENERAL SYNTAX
 ==============
-
-# mount -t u2fs -o <BRANCH-OPTIONS> none MOUNTPOINT
+ mount -t u2fs -o <BRANCH-OPTIONS> none MOUNTPOINT
 
 BRANCH-OPTIONS are two directory paths ldir and rdir.
 1.	u2fs has only two branches, which are identify as the "left branch" (LB
